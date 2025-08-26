@@ -1,5 +1,7 @@
+import 'dart:io';
 void main (List<String> args) {
 /*
+  //Set type code
   Set<int> nums = {1, 2, 3, 4, 5};
 
   print(nums.length);
@@ -8,6 +10,10 @@ void main (List<String> args) {
   print(nums.contains(1));
   print(nums);
 */
+
+  /*
+  //List type code
+
   List Buah = ['apel', 'jeruk', 'mangga', 'pisang'];
 
   print(Buah);
@@ -19,4 +25,15 @@ void main (List<String> args) {
   Buah.addAll(['semangka', 'pepaya']);
   print(Buah.indexOf('apel'));
   Buah.forEach(())
+
+  */
+
+  String? name;
+  stdout.write("Masukkan Umur : ");
+  name = stdin.readLineSync();
+  print(name);
+
+  stdout.write("Masukkan Usia")
+
+
 }

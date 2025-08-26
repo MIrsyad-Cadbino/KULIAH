@@ -1,5 +1,13 @@
-import 'package:project_easymeal/project_easymeal.dart' as project_easymeal;
+//T1 First program
+void main (){
+  //var name = "Cadbino";
+  //print("Wsg $name");
 
-void main(List<String> arguments) {
-  print('Hello world: ${project_easymeal.calculate()}!');
+  double pecahan = 2.0;
+  num angka = 31;
+  dynamic angkaD = 17;
+
+  print(pecahan);
+  print(angka);
+  print(angkaD);
 }

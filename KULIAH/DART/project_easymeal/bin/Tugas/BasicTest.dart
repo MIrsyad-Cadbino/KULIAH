@@ -33,7 +33,7 @@ void main (List<String> args) {
   name = stdin.readLineSync();
   print(name);
 
-  stdout.write("Masukkan Usia")
+  stdout.write("Masukkan Usia : ");
 
 
 }
